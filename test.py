@@ -5,7 +5,7 @@ import requests
 
 from keys import *
 
-api_key = os.getenv('RDB_API_KEY')
+api_key = os.getenv('RDB_API_TOKEN')
 assert api_key is not None
 API_TOKEN = f'Token {api_key}'
 
